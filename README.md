@@ -38,21 +38,14 @@ predictive-modeling
 
 # 📁 Repository Structure
 
-Rock-vs-Mine-Prediction-ML/
+Rock-vs-Mine-Prediction-ML
 │
-├── dataset/
-│   └── Sonar data.csv
-│
-├── notebook/
-│   └── RockvsMine_Prediction.ipynb
-│
+├── RockvsMine_Prediction.ipynb
+├── Sonar data.csv
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
-├── .gitignore
-└── .github/
-    └── ISSUE_TEMPLATE/
-        └── bug_report.md
+└── .gitignore
 
 ---
 
