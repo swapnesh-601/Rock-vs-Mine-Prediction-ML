@@ -1,58 +1,3 @@
-# 📂 Repository Name
-
-Rock-vs-Mine-Prediction-ML
-
----
-
-# 📝 Repository Description
-
-A Machine Learning classification project that predicts whether an object detected by sonar is a **Rock** or a **Mine** using **Logistic Regression**. This project demonstrates data preprocessing, model training, evaluation, and prediction using Python and Scikit-learn.
-
----
-
-# 🏷️ GitHub Topics
-
-python
-
-machine-learning
-
-classification
-
-logistic-regression
-
-scikit-learn
-
-numpy
-
-pandas
-
-jupyter-notebook
-
-data-science
-
-sonar
-
-predictive-modeling
-
----
-
-# 📁 Repository Structure
-
----
-
-Rock-vs-Mine-Prediction-ML/
-│
-├── README.md
-├── RockvsMine_Prediction.ipynb
-├── Sonar data.csv
-├── requirements.txt
-├── LICENSE
-└── .gitignore
-
----
-
-# 📄 README.md
-
 # 🪨 Rock vs Mine Prediction using Machine Learning
 
 ## 📌 Project Overview
@@ -61,46 +6,42 @@ This project implements a Machine Learning classification model capable of disti
 
 The model is built using **Logistic Regression**, a supervised machine learning algorithm designed for binary classification tasks.
 
-The project demonstrates a complete Machine Learning workflow including:
+The project demonstrates a complete Machine Learning workflow, including:
 
-- Data Loading
-- Data Exploration
-- Data Preprocessing
-- Feature & Target Separation
-- Train-Test Split
-- Model Training
-- Model Evaluation
-- Prediction on New Data
+* Data Loading
+* Data Exploration
+* Data Preprocessing
+* Feature & Target Separation
+* Train-Test Split
+* Model Training
+* Model Evaluation
+* Prediction on New Data
 
-This project is ideal for beginners who want to understand how Machine Learning can be used to solve real-world binary classification problems.
+This project is an excellent beginner-friendly implementation of a binary classification problem using Python and Scikit-learn.
 
 ---
 
 ## 🎯 Problem Statement
 
-Sonar systems emit sound waves underwater. These sound waves bounce back after hitting an object.
+Sonar systems transmit sound waves underwater. These waves reflect back after striking an object. Based on the reflected sonar signals, the objective is to determine whether the detected object is a:
 
-Using the reflected sonar signals, this project predicts whether the detected object is:
+* **Rock (R)**
+* **Mine (M)**
 
-- **Rock (R)**
-- **Mine (M)**
-
-The prediction is performed using a Logistic Regression classification model.
+A Logistic Regression model is trained to accurately classify these underwater objects.
 
 ---
 
 ## 📂 Dataset Information
 
-Dataset Name:
-Sonar Dataset
+**Dataset Name:** Sonar Dataset
 
-Features:
-60 numerical features
+**Features:** 60 numerical features
 
-Target Variable:
+**Target Variable:**
 
-- R → Rock
-- M → Mine
+* **R** → Rock
+* **M** → Mine
 
 Each feature represents the energy of sonar signals reflected at different frequencies.
 
@@ -108,11 +49,11 @@ Each feature represents the energy of sonar signals reflected at different frequ
 
 ## 🛠️ Technologies Used
 
-- Python
-- NumPy
-- Pandas
-- Scikit-learn
-- Jupyter Notebook
+* Python
+* NumPy
+* Pandas
+* Scikit-learn
+* Jupyter Notebook
 
 ---
 
@@ -122,23 +63,23 @@ Each feature represents the energy of sonar signals reflected at different frequ
 
 ### Why Logistic Regression?
 
-- Suitable for Binary Classification
-- Fast Training
-- Easy to Understand
-- Highly Interpretable
-- Strong Baseline Algorithm
+* Suitable for Binary Classification
+* Fast and Efficient
+* Easy to Interpret
+* Excellent Baseline Model
+* Performs well on linearly separable data
 
 ---
 
 ## 📊 Project Workflow
 
 1. Import Required Libraries
-2. Load Dataset
-3. Explore Dataset
+2. Load the Dataset
+3. Explore and Analyze the Data
 4. Separate Features and Target Variable
-5. Split Dataset into Training and Testing Sets
-6. Train Logistic Regression Model
-7. Evaluate Model Accuracy
+5. Split the Dataset into Training and Testing Sets
+6. Train the Logistic Regression Model
+7. Evaluate Model Performance
 8. Predict Whether the Object is Rock or Mine
 
 ---
@@ -147,30 +88,26 @@ Each feature represents the energy of sonar signals reflected at different frequ
 
 The model performance is evaluated using:
 
-- Accuracy Score
+* **Accuracy Score**
 
-Evaluation is performed on:
+The model is evaluated on both:
 
-- Training Data
-- Testing Data
+* Training Dataset
+* Testing Dataset
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 Rock-vs-Mine-Prediction-ML/
 │
-├── dataset/
-│   └── Sonar data.csv
-│
-├── notebook/
-│   └── RockvsMine_Prediction.ipynb
-│
-├── README.md
-├── requirements.txt
-├── LICENSE
-└── .gitignore
+├── 📄 README.md                 # Project documentation
+├── 📓 RockvsMine_Prediction.ipynb   # Jupyter Notebook
+├── 📊 Sonar data.csv            # Dataset
+├── 📋 requirements.txt          # Python dependencies
+├── 📜 LICENSE                   # MIT License
+└── 🚫 .gitignore                # Git ignore rules
 ```
 
 ---
@@ -189,7 +126,7 @@ Move into the project directory
 cd Rock-vs-Mine-Prediction-ML
 ```
 
-Install dependencies
+Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -199,7 +136,7 @@ pip install -r requirements.txt
 
 ## ▶️ Run the Project
 
-Start Jupyter Notebook
+Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -211,34 +148,33 @@ Open:
 RockvsMine_Prediction.ipynb
 ```
 
-Run all cells.
+Run all the cells to train the model and make predictions.
 
 ---
 
 ## 📚 Learning Outcomes
 
-By completing this project, you will learn:
+By completing this project, you will gain hands-on experience with:
 
-- Binary Classification
-- Logistic Regression
-- Data Preprocessing
-- Train-Test Split
-- Model Evaluation
-- Prediction on New Data
-- Scikit-learn Workflow
+* Binary Classification
+* Logistic Regression
+* Data Preprocessing
+* Train-Test Split
+* Model Evaluation
+* Prediction on New Data
+* Machine Learning Workflow using Scikit-learn
 
 ---
 
 ## 🔮 Future Improvements
 
-- Feature Scaling
-- Cross Validation
-- Hyperparameter Tuning
-- Random Forest Classifier
-- Support Vector Machine (SVM)
-- XGBoost Classifier
-- Model Deployment using Streamlit
-- REST API using Flask or FastAPI
+* Feature Scaling
+* Cross Validation
+* Hyperparameter Tuning
+* Random Forest Classifier
+* Support Vector Machine (SVM)
+* XGBoost Classifier
+* Deploy the model using Streamlit or Flask
 
 ---
 
@@ -246,13 +182,11 @@ By completing this project, you will learn:
 
 This project was developed as part of my Machine Learning learning journey.
 
-Special thanks to **Siddhardhan** for providing an excellent tutorial and explanation that helped me understand the concepts and implementation.
+Special thanks to **Siddhardhan** for the excellent tutorial and detailed explanation that inspired this implementation.
 
-### Tutorial Credit
+**📺 YouTube Channel:** Siddhardhan
 
-**YouTube Channel:** Siddhardhan
-
-**Video Link:**
+**🎥 Tutorial Video:**
 https://youtu.be/fiz1ORTBGpY?si=HjO9OQmnJ6mDJcn8
 
 ---
@@ -261,102 +195,8 @@ https://youtu.be/fiz1ORTBGpY?si=HjO9OQmnJ6mDJcn8
 
 **Swapnesh Das**
 
-B.Tech Student
-
-Aspiring Data Analyst | Machine Learning Enthusiast
+**B.Tech CSE Graduate**
 
 ---
 
-⭐ If you found this project helpful, don't forget to **Star** this repository!
-
----
-
-# 📄 requirements.txt
-
-```text
-numpy
-pandas
-scikit-learn
-jupyter
-```
-
----
-
-# 📄 .gitignore
-
-```text
-__pycache__/
-.ipynb_checkpoints/
-*.pyc
-*.pyo
-*.pyd
-*.pkl
-*.joblib
-.env
-.vscode/
-.idea/
-```
-
----
-
-# 📄 LICENSE
-
-```text
-MIT License
-
-Copyright (c) 2026 Swapnesh Das
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished
-to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
----
-
-# 📝 GitHub About Section
-
-## Description
-
-A Machine Learning project that classifies sonar signals into Rock or Mine using Logistic Regression with Python and Scikit-learn.
-
-## Website
-
-Leave Blank
-
-## Topics
-
-```
-python
-machine-learning
-classification
-logistic-regression
-scikit-learn
-numpy
-pandas
-jupyter-notebook
-data-science
-sonar
-predictive-modeling
-```
-
----
-
-# ✅ First Commit Message
-
-```text
-Initial commit: Rock vs Mine Prediction using Logistic Regression
-```
+⭐ **If you found this project helpful, consider giving it a Star!**
